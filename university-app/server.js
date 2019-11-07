@@ -25,7 +25,8 @@ app.use('/', require("./routes"));
 app.use(express.static(path.join(__dirname, './final-certchain')));
 
 // Save our port
-var port = process.env.PORT || 8000;
+var port = process.env.PORT || 9001;
+
 
 // Start the server and listen on port 
 app.listen(port,function(){
